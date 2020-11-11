@@ -1,4 +1,4 @@
-# start-server-webpack-plugin
+# start-server-nestjs-webpack-plugin
 
 > Automatically start your server once Webpack's build completes.
 
@@ -10,7 +10,7 @@
 ### Installation
 
 ```shell
-$ npm install --save-dev start-server-webpack-plugin
+$ npm install --save-dev start-server-nestjs-webpack-plugin
 ```
 
 ### Usage
@@ -18,7 +18,7 @@ $ npm install --save-dev start-server-webpack-plugin
 In `webpack.config.server.babel.js`:
 
 ```js
-import StartServerPlugin from "start-server-webpack-plugin";
+import StartServerPlugin from "start-server-nestjs-webpack-plugin";
 
 export default {
   // This script will be ran after building
