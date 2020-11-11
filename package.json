@@ -1,5 +1,5 @@
 {
-  "name": "start-server-webpack-plugin",
+  "name": "start-server-nestjs-webpack-plugin",
   "version": "2.2.5",
   "description": "Automatically start your server once Webpack's build completes.",
   "main": "dist/StartServerPlugin.js",
