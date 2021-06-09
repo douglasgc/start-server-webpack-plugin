@@ -94,7 +94,7 @@ export default class StartServerPlugin {
     }
   }
 
-  startServer(compilation, callback) {
+  startServer(compilation) {
     const {options} = this;
     let name;
     const names = Object.keys(compilation.assets);
@@ -120,7 +120,6 @@ export default class StartServerPlugin {
 
     this._startServer(worker => {
       this.worker = worker;
-      callback();
     });
   }
 
